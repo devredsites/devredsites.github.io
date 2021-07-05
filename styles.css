@@ -1,0 +1,17 @@
+:root {
+    --color-accent: #DA291C;
+    --color-background: #222;
+    --color-text: #ddd;
+}
+body {
+    background-color: #000;
+    color: var(--color-text);
+}
+.header, .footer {
+    background-color: var(--color-accent);
+    color: var(--color-text);
+}
+.body {
+    background-color: var(--color-background);
+    color: var(--color-text);
+}
