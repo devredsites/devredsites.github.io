@@ -2,6 +2,7 @@
     --color-accent: #DA291C;
     --color-background: #222;
     --color-text: #ddd;
+    font-size: 16px;
 }
 body {
     background-color: #000;
@@ -12,6 +13,7 @@ body {
     color: var(--color-text);
 }
 .body {
+    margin-top: 3.5rem;
     background-color: var(--color-background);
     color: var(--color-text);
 }
